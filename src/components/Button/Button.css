@@ -1,0 +1,11 @@
+
+.btn-cus {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+}
+
+.btn-cus.lg {
+    width: 100%;
+}

@@ -1,5 +1,6 @@
 import headerTop from '../../assets/img/ship.jpg'
 import logo from '../../assets/img/logo1.png'
+import LoginBox from '../LoginBox'
 import './Header.css'
 
 export default function Header() {
@@ -36,7 +37,7 @@ export default function Header() {
                     </div>
                     <form className="header-bottom__center-search-form">
                         <div className="search-form__input">
-                            <input type="text" />
+                            <input type="text" placeholder='Tìm sản phẩm, thương hiệu bạn mong muốn...'/>
                         </div>
                         <div className="search-form__btn">
                             <i className="fa-solid fa-magnifying-glass"></i>
@@ -44,13 +45,14 @@ export default function Header() {
                     </form>
                 </div>
                 <div className="header-bottom__right">
-                    <div className="hearder-bottom__right-list">
+                    <div className="header-bottom__right-list">
                         <div className="header-bottom__right-item">
                             <div className="header-bottom__right-item-icon">
                                 <i className="fa-solid fa-cart-shopping"></i>
                             </div>
                             <div className="header-bottom__right-item-text">
-                                Giỏ hàng
+                                <div>Giỏ</div>
+                                <div>Hàng</div>
                             </div>
                         </div>
 
@@ -59,8 +61,10 @@ export default function Header() {
                                 <i className="fa-solid fa-user"></i>
                             </div>
                             <div className="header-bottom__right-item-text">
-                                Giỏ hàng
+                                <div>Đăng nhập/ Đăng ký</div>
+                                <div>Tài khoản</div>
                             </div>
+                            <LoginBox />
                         </div>
 
                         <div className="header-bottom__right-item">
@@ -68,9 +72,29 @@ export default function Header() {
                                 <i className="fa-solid fa-phone"></i>
                             </div>
                             <div className="header-bottom__right-item-text">
-                                Giỏ hàng
+                                <div>Hỗ trợ</div>
+                                <div>khách hàng</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="header-bar">
+                <div className="header-bar__list">
+                    <div className="header-bar__item border">
+                        <a href="#">
+                            <i className="fa-solid fa-location-dot"></i>
+                            Linh Trung, tp thủ đức, tp Hồ Chí Minh
+                        </a>
+                    </div>
+                    <div className="header-bar__item">
+                        <a href="#">sakura deals</a>
+                    </div>
+                    <div className="header-bar__item">
+                        <a href="#">hot deals</a>
+                    </div>
+                    <div className="header-bar__item">
+                        <a href="#">hàng mới về</a>
                     </div>
                 </div>
             </div>

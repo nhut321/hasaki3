@@ -1,0 +1,7 @@
+.login-box {
+    position: absolute;
+    top: 100%;
+    width: 298px;
+    background-color: yellow;
+    height: 200px;
+}
