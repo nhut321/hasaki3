@@ -82,7 +82,7 @@
     justify-content: center;
     width: 60px;
     height: 36px;
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color: white;
@@ -108,6 +108,10 @@
     display: flex;
     align-items: center;
     margin-left: 1rem;
+}
+
+.header-bottom__right-item:hover .login-box {
+    display: block;
 }
 
 .header-bottom__right-item-icon {

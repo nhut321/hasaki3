@@ -56,7 +56,7 @@ export default function Header() {
                             </div>
                         </div>
 
-                        <div className="header-bottom__right-item">
+                        <div className="header-bottom__right-item login">
                             <div className="header-bottom__right-item-icon">
                                 <i className="fa-solid fa-user"></i>
                             </div>
