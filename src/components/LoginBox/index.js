@@ -10,12 +10,14 @@ export default function LoginBox() {
                 <div className="login-box__item-label">
                     <span>Đăng nhập với</span>
                 </div>
-                <a href="#" className='social-btn'>
-                    <img src={loginFb} alt="" />
-                </a>
-                <a href="#" className='social-btn'>
-                    <img src={loginGmail} alt="" />
-                </a>
+                <div className="social-login">
+                    <a href="#" className='social-btn'>
+                        <img src={loginFb} alt="" />
+                    </a>
+                    <a href="#" className='social-btn'>
+                        <img src={loginGmail} alt="" />
+                    </a>
+                </div>
             </div>
 
             <div className="login-box__item">
