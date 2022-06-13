@@ -115,6 +115,7 @@
 }
 
 .header-bottom__right-item-icon {
+    position: relative;
     font-size: 1.5rem;
     margin: 0 1rem;
     width: 32px;
@@ -136,6 +137,20 @@
 
 .header-bottom__right-item-text {
     color: white;
+}
+
+.header-bottom__right-item .count-cart {
+    position: absolute;
+    left: calc(100% - 10px);
+    top: -10px;
+    background-color: var(--tertiary-color);
+    padding: 0 0.5rem;
+    border-radius: 30px;
+    line-height: 1;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    z-index: 1;
 }
 
 .header-bar__list {

@@ -49,6 +49,7 @@ export default function Header() {
                         <div className="header-bottom__right-item">
                             <div className="header-bottom__right-item-icon">
                                 <i className="fa-solid fa-cart-shopping"></i>
+                                <div className="count-cart">0</div>
                             </div>
                             <div className="header-bottom__right-item-text">
                                 <div>Giỏ</div>
